@@ -1,0 +1,60 @@
+
+body{
+   background-image: url("https://i0.wp.com/www.thestartupfounder.com/wp-content/uploads/2023/06/f_pypzepimc.jpg?fit=1200%2C800&ssl=1");
+   background-size: cover;
+   background-repeat:no-repeat;
+   overflow-x: hidden;
+}
+input{
+    text-align: right;
+}
+.content{
+    background-image: url(https://media.istockphoto.com/id/520703589/photo/body-mass-index-calculator.jpg?s=612x612&w=0&k=20&c=2b4uUtea6c6YOQxx64cgzArQK5Q5kwrAgQ1wm8W7WcQ=);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:left;
+    opacity: 0.8;
+    background-color: #F4D03F;
+}
+.slidecontainer {
+    width: 100%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+   
+  }
+  
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #002ec7;
+   
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: url(./media/351-3512754_gauge-clip-art.png);
+    cursor: pointer;
+  }
+  #op_content{
+    transition: opacity 0.5s ease-in-out;
+  }
+  #op_content.fade-out {
+    opacity: 0;
+}
